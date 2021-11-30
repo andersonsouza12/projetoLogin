@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+
+
+</head>
+
+<body>
+    <a href="inicio.html">Voltar</a>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de Usuário</b></legend>
+                <br>
+                <div class="inputs">
+                    <input type="text" name="name" id="name" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome</label>
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input type="text" name="rgm" id="rgm" class="inputUser" required>
+                    <label for="nome" class="labelInput">RGM</label>
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outros">Outro</label>
+                <br><br>
+
+                <label for="date"><b>Data de Nascimento</b></label>
+                <input type="date" name="dateNas" id="dateNas" required>
+
+                <br><br>
+                <div class="inputs">
+                    <input type="text" name="city" id="city" class="inputUser" required>
+                    <label for="city" class="labelInput">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input type="text" name="state" id="state" class="inputUser" required>
+                    <label for="state" class="labelInput">Estado</label>
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input type="text" name="adress" id="adress" class="inputUser" required>
+                    <label for="adress" class="labelInput">Endereco</label>
+                </div>
+                <br>
+                <a class="inputSubmit" name="submit" id="submit" href="login.html">Cadastrar</a>
+
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,cyan, rgb(209, 108, 184));
+}
+h1{
+    text-align: center;
+}
+.tela-login {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.inputSubmit{
+    background-color: rgba(109, 204, 204, 0.8);
+    border: nome;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.inputSubmit:hover{
+   
+    background-color: rgb(209, 108, 184);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+a:hover {
+    background-color: dodgerblue;
+}
